@@ -19,6 +19,6 @@ class Iterable:
 
 async def main():
     async for i in Iterable():
-        print(i)
+        print(f'{i}')
 
 asyncio.run(main())
